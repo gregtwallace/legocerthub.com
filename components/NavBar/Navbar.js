@@ -14,16 +14,21 @@ import MenuItem from '@mui/material/MenuItem';
 
 const pages = [
   {
-    name: 'Installing',
-    href: '',
+    name: 'Install',
+    href: '/install',
   },
   {
-    name: 'Using',
-    href: '',
+    name: 'Configure',
+    href: '/configure',
   },
   {
-    name: 'Configuring',
-    href: '',
+    name: 'Usage',
+    href: '/usage',
+  },
+  {
+    name: 'Download',
+    href: 'https://github.com/gregtwallace/legocerthub/releases',
+    target: '_blank',
   },
   {
     name: 'Source',

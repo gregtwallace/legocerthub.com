@@ -27,6 +27,23 @@ const App = ({ Component, pageProps }) => {
         />
 
         <link rel='icon' href='/favicon.ico' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='%PUBLIC_URL%/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='%PUBLIC_URL%/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='%PUBLIC_URL%/favicon-16x16.png'
+        />
 
         <meta property='og:title' content='LeGo CertHub' />
         <meta property='og:type' content='website' />
@@ -39,6 +56,12 @@ const App = ({ Component, pageProps }) => {
           content='https://www.legocerthub.com/images/og/og_image.png'
         /> */}
         <meta property='og:url' content='https://www.legocerthub.com/' />
+
+        <title>LeGo CertHub</title>
+        <meta
+          name='description'
+          content="LeGo CertHub is centralized Let's Encrypt certificate management software."
+        />
       </Head>
 
       <Box
