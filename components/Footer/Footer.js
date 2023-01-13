@@ -6,6 +6,7 @@ const Footer = () => {
     <Box
       component='footer'
       sx={{
+        mt: 2,
         py: 1,
       }}
     >

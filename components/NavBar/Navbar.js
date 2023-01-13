@@ -22,8 +22,12 @@ const pages = [
     href: '/configure',
   },
   {
-    name: 'Usage',
-    href: '/usage',
+    name: 'Server Usage',
+    href: '/server_usage',
+  },
+  {
+    name: 'Client Usage',
+    href: '/client_usage',
   },
   {
     name: 'Download',
