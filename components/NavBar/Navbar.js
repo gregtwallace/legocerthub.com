@@ -27,7 +27,7 @@ const pages = [
   },
   {
     name: 'Source',
-    href: 'https://github.com/gregtwallace/legocerthub-backend',
+    href: 'https://github.com/gregtwallace/legocerthub',
     target: '_blank',
   },
 ];
