@@ -1,4 +1,5 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+import GoogleAd from '../../components/GoogleAd/GoogleAd';
 
 const ConfigurePage = () => {
   return (
@@ -79,6 +80,8 @@ const ConfigurePage = () => {
         something. Do not leave this on in production.
       </Typography>
 
+      <GoogleAd />
+
       <Typography sx={{ mt: 8 }} component='h3' variant='h5'>
         orders
       </Typography>
@@ -110,6 +113,8 @@ const ConfigurePage = () => {
         The time the daily refresh task should run.
       </Typography>
 
+      <GoogleAd />
+
       <Typography sx={{ mt: 8 }} component='h3' variant='h5'>
         challenges
       </Typography>
@@ -134,6 +139,8 @@ const ConfigurePage = () => {
         This section has various options to configure different providers. See
         the config.default.yaml for more details.
       </Typography>
+
+      <GoogleAd />
     </Container>
   );
 };

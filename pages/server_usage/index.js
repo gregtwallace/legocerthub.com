@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
+import GoogleAd from '../../components/GoogleAd/GoogleAd';
 
 const ServerUsagePage = () => {
   return (
@@ -45,6 +46,8 @@ const ServerUsagePage = () => {
         />
       </Container>
 
+      <GoogleAd />
+
       <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
         Private Keys
       </Typography>
@@ -72,6 +75,8 @@ const ServerUsagePage = () => {
         src='/images/server_usage/keys_3.png'
         sx={{ width: 1, mt: 2 }}
       />
+
+      <GoogleAd />
 
       <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
         ACME Accounts
@@ -104,6 +109,8 @@ const ServerUsagePage = () => {
         src='/images/server_usage/accounts_3.png'
         sx={{ width: 1, mt: 2 }}
       />
+
+      <GoogleAd />
 
       <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
         Certificates
@@ -139,6 +146,8 @@ const ServerUsagePage = () => {
         sx={{ width: 1, mt: 2 }}
       />
 
+      <GoogleAd />
+
       <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
         Logs & Settings
       </Typography>
@@ -155,6 +164,8 @@ const ServerUsagePage = () => {
         expand in the future to allow modification of items currently controlled
         exclusively in the config.yaml file.
       </Typography>
+
+      <GoogleAd />
     </Container>
   );
 };

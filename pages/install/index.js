@@ -1,4 +1,5 @@
 import { Box, Container, Link, Typography } from '@mui/material';
+import GoogleAd from '../../components/GoogleAd/GoogleAd';
 
 const InstallPage = () => {
   return (
@@ -62,6 +63,8 @@ const InstallPage = () => {
         Once your config is complete, restart the LeGo server.
       </Typography>
 
+      <GoogleAd />
+
       <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
         Enable SSL
       </Typography>
@@ -92,6 +95,8 @@ const InstallPage = () => {
         Create a new account with that key. After creation, click
         &apos;Register&apos;.
       </Typography>
+
+      <GoogleAd />
 
       <Container maxWidth='sm'>
         <Box
@@ -144,6 +149,8 @@ const InstallPage = () => {
         Go to Settings and change the default password. Now you are all set to
         begin populating other keys and certificates.
       </Typography>
+
+      <GoogleAd />
     </Container>
   );
 };
