@@ -8,6 +8,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import GoogleAdHead from '../components/GoogleAd/GoogleAdHead';
 
 const App = ({ Component, pageProps }) => {
   const theme = createTheme({
@@ -62,6 +63,8 @@ const App = ({ Component, pageProps }) => {
           name='description'
           content="LeGo CertHub is centralized Let's Encrypt certificate management software."
         />
+
+        <GoogleAdHead />
       </Head>
 
       <Box

@@ -1,4 +1,5 @@
 import { Box, Container, Link, Typography } from '@mui/material';
+import GoogleAd from '../components/GoogleAd/GoogleAd';
 
 const Home = () => {
   return (
@@ -63,7 +64,7 @@ const Home = () => {
           .
         </Typography>
 
-        
+        <GoogleAd />
       </Container>
     </>
   );
