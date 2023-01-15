@@ -6,7 +6,7 @@ const GoogleAd = () => {
   useEffect(() => {
     window.adsbygoogle = window.adsbygoogle || [];
     window.adsbygoogle.push({});
-  });
+  },[]);
 
   return (
     <Container>
