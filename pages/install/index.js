@@ -8,12 +8,16 @@ const InstallPage = () => {
         component='h2'
         variant='h4'
         align='center'
-        sx={{ mt: 4, mb: 1 }}
+        sx={{ mt: 4, mb: 1, color: 'info.light' }}
       >
         Installation
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Download
       </Typography>
       <Typography paragraph>
@@ -27,7 +31,11 @@ const InstallPage = () => {
         . Download it and unpack it on the desired host.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Install
       </Typography>
       <Typography paragraph>
@@ -42,7 +50,11 @@ const InstallPage = () => {
         sudo) and the rest is done for you.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Configure
       </Typography>
       <Typography paragraph>
@@ -65,7 +77,11 @@ const InstallPage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Enable SSL
       </Typography>
       <Typography paragraph>
@@ -137,7 +153,11 @@ const InstallPage = () => {
         firewall settings.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Update SSL Config
       </Typography>
       <Typography paragraph>

@@ -8,7 +8,7 @@ const ConfigurePage = () => {
         component='h2'
         variant='h4'
         align='center'
-        sx={{ mt: 4, mb: 1 }}
+        sx={{ mt: 4, mb: 1, color: 'info.light' }}
       >
         Configure
       </Typography>
@@ -19,7 +19,11 @@ const ConfigurePage = () => {
         config.default.yaml.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         hostname
       </Typography>
       <Typography paragraph>
@@ -28,7 +32,11 @@ const ConfigurePage = () => {
         will technically work to get the server started.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         https_port & http_port
       </Typography>
       <Typography paragraph>
@@ -37,7 +45,11 @@ const ConfigurePage = () => {
         the frontend).
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         enable_http_redirect
       </Typography>
       <Typography paragraph>
@@ -45,7 +57,11 @@ const ConfigurePage = () => {
         server will be started on http to redirect to https.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         log_level
       </Typography>
       <Typography paragraph>
@@ -53,7 +69,11 @@ const ConfigurePage = () => {
         logging.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         serve_frontend
       </Typography>
       <Typography paragraph>
@@ -63,7 +83,11 @@ const ConfigurePage = () => {
         configuration.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         private_key_name & certificate_name
       </Typography>
       <Typography paragraph>
@@ -71,7 +95,11 @@ const ConfigurePage = () => {
         run in https mode.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         dev_mode
       </Typography>
       <Typography paragraph>
@@ -82,7 +110,11 @@ const ConfigurePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h5'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h5'
+      >
         orders
       </Typography>
       <Typography paragraph>
@@ -90,7 +122,11 @@ const ConfigurePage = () => {
         certificates functions.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h4' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h4'
+        variant='h6'
+      >
         auto_order_enable
       </Typography>
       <Typography paragraph>
@@ -98,7 +134,11 @@ const ConfigurePage = () => {
         place new orders when old orders are aging out.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h4' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h4'
+        variant='h6'
+      >
         valid_remaining_days_threshold
       </Typography>
       <Typography paragraph>
@@ -106,7 +146,11 @@ const ConfigurePage = () => {
         places a new order for that certificate.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h4' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h4'
+        variant='h6'
+      >
         refresh_time_hour & refresh_time_minute
       </Typography>
       <Typography paragraph>
@@ -115,14 +159,22 @@ const ConfigurePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h5'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h5'
+      >
         challenges
       </Typography>
       <Typography paragraph>
         This section contains options relating to how challenges are solved.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h4' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h4'
+        variant='h6'
+      >
         dns_checker: dns_services: primary_ip & secondary_ip
       </Typography>
       <Typography paragraph>
@@ -132,7 +184,11 @@ const ConfigurePage = () => {
         be specified.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h4' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h4'
+        variant='h6'
+      >
         providers
       </Typography>
       <Typography paragraph>

@@ -8,7 +8,7 @@ const ServerUsagePage = () => {
         component='h2'
         variant='h4'
         align='center'
-        sx={{ mt: 4, mb: 1 }}
+        sx={{ mt: 4, mb: 1, color: 'info.light' }}
       >
         Server Usage
       </Typography>
@@ -17,7 +17,11 @@ const ServerUsagePage = () => {
         workflow.
       </Typography>
 
-      <Typography sx={{ mt: 4 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 4, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Dashboard
       </Typography>
       <Typography paragraph>
@@ -48,7 +52,11 @@ const ServerUsagePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Private Keys
       </Typography>
       <Typography paragraph>
@@ -78,7 +86,11 @@ const ServerUsagePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         ACME Accounts
       </Typography>
       <Typography paragraph>
@@ -112,7 +124,11 @@ const ServerUsagePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Certificates
       </Typography>
       <Typography paragraph>
@@ -148,7 +164,11 @@ const ServerUsagePage = () => {
 
       <GoogleAd />
 
-      <Typography sx={{ mt: 8 }} component='h3' variant='h6'>
+      <Typography
+        sx={{ mt: 8, color: 'info.light' }}
+        component='h3'
+        variant='h6'
+      >
         Logs & Settings
       </Typography>
       <Typography paragraph>

@@ -9,7 +9,7 @@ const Home = () => {
           component='h2'
           variant='h4'
           align='center'
-          sx={{ mt: 4, mb: 1 }}
+          sx={{ mt: 4, mb: 1, color: 'info.light' }}
         >
           Centralized Certificate Management
         </Typography>
