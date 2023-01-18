@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Container, NoSsr } from '@mui/material';
+import { Container, NoSsr, Typography } from '@mui/material';
 
 const GoogleAd = () => {
   useEffect(() => {
@@ -10,8 +10,21 @@ const GoogleAd = () => {
     }
   }, []);
 
+  // return placeholder if not in prod
+  if (process.env.NODE_ENV !== 'production') {
+    return (
+      <Container
+        sx={{ my: 2, width: 1, height: '165px', bgcolor: 'info.dark' }}
+      >
+        <Typography paragraph variant='h6' align='center' sx={{ pt: 5 }}>
+          Ad Placeholder
+        </Typography>
+      </Container>
+    );
+  }
+
   return (
-    <Container>
+    <Container sx={{ my: 2 }}>
       <NoSsr>
         <ins
           className='adsbygoogle'
