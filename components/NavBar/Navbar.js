@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -51,6 +52,9 @@ const Navbar = () => {
     setAnchorElNav(null);
   };
 
+  // apply color to the current page
+  const currentPath = useRouter().pathname;
+
   return (
     <>
       {/* Dummy AppBar for spacing */}
@@ -69,8 +73,9 @@ const Navbar = () => {
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
-                color: 'inherit',
                 textDecoration: 'none',
+                color: 'white',
+                ...(currentPath === '/' && { color: 'info.light' }),
               }}
             >
               LeGo CertHub
@@ -83,7 +88,7 @@ const Navbar = () => {
                 aria-controls='menu-appbar'
                 aria-haspopup='true'
                 onClick={handleOpenNavMenu}
-                color='inherit'
+                color='white'
               >
                 <MenuIcon />
               </IconButton>
@@ -113,7 +118,17 @@ const Navbar = () => {
                     key={page.name}
                     onClick={handleCloseNavMenu}
                   >
-                    <Typography textAlign='center'>{page.name}</Typography>
+                    <Typography
+                      textAlign='center'
+                      sx={{
+                        color: 'white',
+                        ...(currentPath === page.href && {
+                          color: 'info.light',
+                        }),
+                      }}
+                    >
+                      {page.name}
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -128,8 +143,9 @@ const Navbar = () => {
                 mr: 2,
                 display: { xs: 'flex', md: 'none' },
                 flexGrow: 1,
-                color: 'inherit',
                 textDecoration: 'none',
+                color: 'white',
+                ...(currentPath === '/' && { color: 'info.light' }),
               }}
             >
               LeGo CertHub
@@ -142,7 +158,12 @@ const Navbar = () => {
                   target={page.target && `target=${page.target}`}
                   key={page.name}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
+                  sx={{
+                    my: 2,
+                    display: 'block',
+                    color: 'white',
+                    ...(currentPath === page.href && { color: 'info.light' }),
+                  }}
                 >
                   {page.name}
                 </Button>
