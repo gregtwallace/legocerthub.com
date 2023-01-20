@@ -52,10 +52,10 @@ const App = ({ Component, pageProps }) => {
           property='og:description'
           content="LeGo CertHub: Centralized Let's Encrypt Certificate Management"
         />
-        {/* <meta
+        <meta
           property='og:image'
           content='https://www.legocerthub.com/images/og/og_image.png'
-        /> */}
+        />
         <meta property='og:url' content='https://www.legocerthub.com/' />
 
         <title>LeGo CertHub</title>
