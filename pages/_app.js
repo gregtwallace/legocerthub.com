@@ -27,7 +27,6 @@ const App = ({ Component, pageProps }) => {
           content='width=device-width, initial-scale=1, shrink-to-fit=no'
         />
 
-        <link rel='icon' href='/favicon.ico' />
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -45,6 +44,7 @@ const App = ({ Component, pageProps }) => {
           sizes='16x16'
           href='%PUBLIC_URL%/favicon-16x16.png'
         />
+        <link rel='manifest' href='%PUBLIC_URL%/site.webmanifest' />
 
         <meta property='og:title' content='LeGo CertHub' />
         <meta property='og:type' content='website' />
