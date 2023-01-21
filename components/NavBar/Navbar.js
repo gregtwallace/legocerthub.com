@@ -36,6 +36,11 @@ const pages = [
     target: '_blank',
   },
   {
+    name: 'Author',
+    href: 'https://www.gregtwallace.com',
+    target: '_blank',
+  },
+  {
     name: 'Source',
     href: 'https://github.com/gregtwallace/legocerthub',
     target: '_blank',
